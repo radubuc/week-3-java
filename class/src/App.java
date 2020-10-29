@@ -11,6 +11,7 @@ public class App {
 		String[] groceryList = {"eggs", "bacon", "coffee", "water"};
 		System.out.println("Does this array have eggs? " + isInArray(groceryList, "eggs"));
 		System.out.println("Does this array have apples? " + isInArray(groceryList, "apples"));
+
 	}
 	
 	public static double sum(double[] values) {
